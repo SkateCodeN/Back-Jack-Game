@@ -1,0 +1,37 @@
+html, body {
+
+    margin:0px;
+}
+#outer-container{
+    background-color: black;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+}
+
+#heading-container{
+    color:red;
+    margin: 1% 1% 1% 1%;
+}
+
+#outer-table-area{
+    background-color: green;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#dealer-container{
+    background-color: green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+#players-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: green;
+    height: 50%;
+}
