@@ -8,14 +8,23 @@ class Player
       
       this.hand = [];
     }
+    //
+    // Get player name or Dealer
+    //
     getPlayerName()
     {
         return this.pName;
     }
+    //
+    // Gets the players money
+    //
     getPlayerMoney()
     {
         return this.pMoney;
     }
+    //
+    // Returns the player's hand
+    //
     getHand()
     {
         return this.hand;
