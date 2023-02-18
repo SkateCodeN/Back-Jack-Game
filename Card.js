@@ -10,6 +10,7 @@ class Card
     }
     
     //Should be renamed to getCardPicture()
+    // 
     getCardPath()
     {
         let imgSource ="./img/";

@@ -75,13 +75,13 @@ class Game
         //  Create the human player
     }
 
-    // helper to create m
+    // Create the BlackJack title
     createHeading(headingID)
     {
         //  create a heading text and append to headingID
         let headingText = document.createElement('h1');
         headingText.innerHTML ="BlackJack";     // Create a text node
-        //  append it to 
+        //  append it to the HTML element 
         let headingContainer = document.getElementById(headingID);
         headingContainer.appendChild(headingText);
     }
